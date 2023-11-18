@@ -685,6 +685,7 @@ def crackfree(idf,pwv):
                 print(f'\r\033[10;92m[{time.strftime("%H:%M")}•Tutul-Ok] {idf} • {pw} ')
                 os.system('espeak -a 300 " Ok,  Tutul,  id"')
                 open('OK/'+okc,'a').write(idf+'|'+pw+'|'+kuki+'n')
+             
                 break
                 
             else:
