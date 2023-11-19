@@ -16,10 +16,10 @@ pretty.install()
 CON=sol()
  #------------------[ ANOX =Jii]-------------------#
 import os, platform, time, sys
-print('\033[97;1m[\033[92;1m+\033[97;1m] \033[0;92mChecking Update...? ')
+print('\033[97;1m[\033[92;1m+\033[97;1m] \033[0;92mChecking Update..? ')
 time.sleep(5)
 os.system('clear')
-print("\033[97;1m[\033[92;1m+\033[97;1m] \033[0;92mJOIN MY SCRIPT GIFT GROUP")
+print("\033[97;1m[\033[92;1m+\033[97;1m] \033[0;92mCHECK APPROVEL FREE")
 time.sleep(2)
 os.system(f'xdg-open https://facebook.com/groups/554714119911648/')
 #------------------[ ANOX-JII ]-------------------#
