@@ -236,7 +236,7 @@ def menu():
   id = "".join(uuid)
 
   try:
-    httpCaht = requests.get('https://github.com/SAGAEXM/tutul/edit/main/Approvl.txt').text    
+    httpCaht = requests.get('https://github.com/SAGAEXM/Approv/blob/main/Approval.txt').text    
     if id in httpCaht:
       print(f"\x1b[1;92m {XX}[\x1b[1;92m⍣{XX}]\x1b[38;5;46m APPROVED SUCCESSFUL")
       msg = str(os.geteuid())
