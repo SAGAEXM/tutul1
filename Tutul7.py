@@ -665,7 +665,7 @@ def passwrd():
                     pwv.append('59039200')
                     pwv.append(frs+'1234')
                     pwv.append(nmf)
-                    pwv.append(frs'123')
+                    pwv.append(frs+'123')
                     pwv.append(frs+'@123')
                     pwv.append('57575751')
                     pwv.append(frs+'@1234'
