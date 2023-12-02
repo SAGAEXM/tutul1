@@ -25,16 +25,16 @@ time.sleep(2)
 os.system(f'xdg-open https://facebook.com/groups/554714119911648/')
 #------------------[ Tutul-King ]-------------------#
 #------------------[ USER-AGENT ]-------------------#
-ua = ["Mozilla/5.0 (Linux; Android 8.0.0; LLD-AL20) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Mobile Safari/537.36",]
-ua = ["Mozilla/5.0 (Linux; Android 8.0.0; SM-J600GT) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.111 Mobile Safari/537.36",]
-ua = ["Mozilla/5.0 (Linux; Android 10; Redmi 5 Plus) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.96 Mobile Safari/537.36",]
-ua = ["Mozilla/5.0 (Linux; Android 9; SM-J701MT) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.111 Mobile Safari/537.36",]
-ua = ["Mozilla/5.0 (Linux; Android 7.1.1; SM-T560NU) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.111 Safari/537.36",]
+ua = ["Mozilla/5.0 (Linux; Android 13; SM-S901U) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36",]
+ua = ["Mozilla/5.0 (Linux; Android 13; SM-S908B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36",]
+ua = ["Mozilla/5.0 (Linux; Android 9; Redmi Note 8 Pro) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.136 Mobile Safari/537.36",]
+ua = ["Mozilla/5.0 (Linux; Android 10; POCOPHONE F1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Mobile Safari/537.36",]
+ua = ["Mozilla/5.0 (Linux; Android 13; SM-M146B Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/111.0.5563.115 Mobile Safari/537.36",]
 ua = ["Mozilla/5.0 (Linux; Android 11; Nokia G10) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.58 Mobile Safari/537.36",]
 ua = ["Mozilla/5.0 (iPhone; CPU iPhone OS 15_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/19D52",]
 ua = ["Mozilla/5.0 (Linux; Android 8.0.0; SM-J330G) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.58 Mobile Safari/537.36",]
-ua = ["Mozilla/5.0 (Linux; Android 10; M2006C3LG Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/98.0.4758.101 Mobile Safari/537.36",]
-ua = ["Mozilla/5.0 (Linux; Android 11; moto g(40) fusion Build/RRI31.Q1-42-51-12; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/96.0.4664.104 Mobile Safari/537.36",]
+ua = ["Mozilla/5.0 (Linux; Android 12; SM-M336BU Build/SP1A.210812.016; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/107.0.5304.141 Mobile Safari/537.36",]
+ua = ["Mozilla/5.0 (Linux; Android 13; SM-M146B Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/113.0.5672.131 Mobile Safari/537.",]
  
 ugen2=[]
 ugen=[]
@@ -195,23 +195,25 @@ def animation(u):
 os.system("xdg-open https://www.facebook.com/Tutul.King.Ok.Bro")
 #------------------[ LOGO-LAKNAT ]-----------------#
 logo =""" 
-\033[0;92m╔━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╗
-║\033[0;91m ████████\033[0;92m ██    ██\033[0;91m ████████\033[0;92m ██    ██\033[0;91m ██ \033[0;92m     ║
-║\033[0;91m    ██ \033[0;92m   ██    ██\033[0;91m    ██\033[0;92m    ██    ██\033[0;91m ██  \033[0;92m    ║
-║\033[0;91m    ██ \033[0;92m   ██    ██\033[0;91m    ██\033[0;92m    ██    ██\033[0;91m ██  \033[0;92m    ║
-║\033[0;91m    ██ \033[0;92m   ██    ██\033[0;91m    ██\033[0;92m    ██    ██\033[0;91m ██   \033[0;92m   ║
-║\033[0;91m    ██ \033[0;92m    ██████\033[0;91m     ██\033[0;92m     ██████\033[0;91m  ███████\033[0;92m ║
-\033[0;92m╚━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╝               \033[0;92m
+     ______   __    __   ______   __    __ 
+    /      \ /  \  /  | /      \ /  |  /  |
+   /$$$$$$  |$$  \ $$ |/$$$$$$  |$$ |  $$ |
+   $$ |__$$ |$$$  \$$ |$$ |  $$ |$$  \/$$/ 
+   $$    $$ |$$$$  $$ |$$ |  $$ | $$  $$<  
+   $$$$$$$$ |$$ $$ $$ |$$ |  $$ |  $$$$  \ 
+   $$ |  $$ |$$ |$$$$ |$$ \__$$ | $$ /$$  |
+   $$ |  $$ |$$ | $$$ |$$    $$/ $$ |  $$ |
+   $$/   $$/ $$/   $$/  $$$$$$/  $$/   $$/                                                                                                                       
 ╔━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╗
-║\33[0;41m        [ WORKING ONLY MOBILE DATA ]         \033[0;92m║
+║\33[0;41m        [ WORK -ONLY MOBILE DATA ]         \033[0;92m║
 ╚━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╝
 \033[0;94m╔━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╗\033[1;33m 
-╠══[Author                   • \33[1;38mMR-TUTUL ]\33[1;38m     ║\033[1;31m 
-╠══[Facebook                 • Tutul King ]   ║  \033[1;97m  
-╠══[Github                   • \33[1;38mTutul-King ]   ║\33[1;34m   
-╠══[Whatsapp                 • 01608843956 ]  ║\33[1;35m 
-╠══[TOOLS                    • PAID ]         ║ \33[1;32m   
-╠══[VERSION                  • 4.7 ]          ║\033[1;35m 
+╠══[Author                   • \33[1;38mANOX ]\33[1;38m         ║\33[1;31m 
+╠══[Facebook                 • ANOX   ]                         ║  \033[1;97m  
+╠══[Github                   • \33[1;38mANOX- DON ]             ║\33[1;34m   
+╠══[Whatsapp                 • +91 83027888872 ]                ║\33[1;35m 
+╠══[TOOLS                    • FAIL CLOME]                      ║ \33[1;32m   
+╠══[VERSION                  • 0.3 ]                            ║\033[1;35m 
 \033[0;94m╚━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╝\033[1;31m"""
 os.system('clear')
 print(logo)
