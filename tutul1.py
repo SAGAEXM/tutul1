@@ -557,23 +557,15 @@ def passwrd():
                 if len(frs)<3:
                     pass
                 else:
-                    pwv.append('57273200')
-                    pwv.append(frs+'123')
-                    pwv.append('57575751')
-                    pwv.append(frs+'1234')
+                    pwv.append(frs)
                     pwv.append(nmf)
-                    pwv.append(frs+'12')
             else:
                 if len(frs)<3:
                     pwv.append(nmf)
                 else:
-                    pwv.append('59039200')
                     pwv.append('57273200')
-                    pwv.append(frs+'@123')
-                    pwv.append(frs+'123')
                     pwv.append(frs)
                     pwv.append(nmf)
-                    pwv.append(frs+'1234')
       
                     
             if 'ya' in pwpluss:
